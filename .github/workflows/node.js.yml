@@ -30,3 +30,4 @@ jobs:
     - run: |
         touch .env
         echo "${{secrets.LOCAL_ENV}}" > .env
+    - run: pm2 restart BOILTERPLATE-API
