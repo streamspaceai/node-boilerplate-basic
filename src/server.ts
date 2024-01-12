@@ -19,6 +19,9 @@ function serverListening(): void {
 	logger.info(
 		`Listening on ${addressInfo.address}:${process.env.PORT || 8080}`,
 	);
+	logger.info(
+		`Listening Go Go Go....`,
+	);
 }
 
 app.init()
